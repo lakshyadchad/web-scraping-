@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Dataset folders (don't push images to git)
+dataset/
+dataset_selenium/
+dataset_clean/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.webp
+
+# But keep the folder structure documentation
+!dataset/.gitkeep
+!dataset_selenium/.gitkeep
+!dataset_clean/.gitkeep
+
+# Metadata (optional - you might want to keep these)
+# metadata.csv
+# metadata_clean.csv
+
+# API Keys (IMPORTANT - never commit these!)
+*API_KEY*
+*api_key*
+secrets.py
+config.py
+.env
+
+# Chrome driver
+chromedriver
+chromedriver.exe
+
+# Logs
+*.log
